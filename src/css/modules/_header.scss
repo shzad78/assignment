@@ -1,0 +1,3 @@
+.heading {
+  @include H1(center, $primary-color);
+}

@@ -1,0 +1,76 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "This assignment is intended to be the foundation for a discussion with a coworker at Mr Green.\r Your job is to create the first iteration of a casino lobby, we provide you with the data, the rest is up to you.\r You'll find the data you need in `lib`.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.config.dev.js",
+    "dev:node": "webpack --config webpack.config.dev.js",
+    "prod": "webpack --config webpack.config.prod.js -p",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "prod:watch": "webpack --config webpack.config.prod.js -w",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shzad78/assignment.git"
+  },
+  "author": "Shahzad Baber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shzad78/assignment/issues"
+  },
+  "homepage": "https://github.com/shzad78/assignment#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^0.16.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-jest": "^23.4.2",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "enzyme-to-json": "^3.3.4",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "fetch-mock": "^6.5.2",
+    "glob-all": "^3.1.0",
+    "jest": "^23.5.0",
+    "jest-serializer-enzyme": "^1.0.0",
+    "node-sass": "^4.9.3",
+    "purify-css": "^1.2.5",
+    "purifycss-webpack": "^0.7.0",
+    "react-test-renderer": "^16.4.2",
+    "redux-mock-store": "^1.5.3",
+    "redux-saga-devtools": "^0.3.0",
+    "redux-saga-test-plan": "^3.7.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}

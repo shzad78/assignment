@@ -1,0 +1,7 @@
+.body {
+  @include wrapper($wrapper-width);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

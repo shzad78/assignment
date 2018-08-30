@@ -1,0 +1,15 @@
+.game-item {
+  width: 20em;
+  height: 20em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+  background-size: cover;
+  background-position: center center;
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    .game-name {
+      @include H3(center, $white);
+      padding-top: 6.5em;
+    }
+  }
+}
