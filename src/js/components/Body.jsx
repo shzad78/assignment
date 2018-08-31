@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 // import { func } from "prop-types";
-
+import { Scrollbars } from 'react-custom-scrollbars';
 import GameItem from "./GameItem";
 
 const Body = props => {
@@ -11,7 +11,9 @@ const Body = props => {
 
   return (
     <Fragment>
+      <Scrollbars >
       <div className="body">{renderAllGames()}</div>
+      </Scrollbars>
     </Fragment>
   );
 };
