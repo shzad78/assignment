@@ -5,15 +5,15 @@ Installation
 
 2. Install dependencies
 
-npm install
+   npm install
 
 3. Start project
 
-npm run start
+   npm run start
 
 4. Viewing in browser.
 
-browse to http://localhost:8080/
+   Browse to http://localhost:8080/
 
 This assignment is intended to be the foundation for a discussion with a coworker at Mr Green.
 Your job is to create the first iteration of a casino lobby, we provide you with the data, the rest is up to you.
